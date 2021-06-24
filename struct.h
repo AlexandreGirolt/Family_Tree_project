@@ -55,7 +55,7 @@ void deleteListPerson(struct ListPerson* p);
 struct CellPlace* createCellPlace(char* place);
 struct ListPerson* createListPlace(struct CellPlace* p);
 void addNewPlace(struct ListPerson* lp, char* place);
-void upadePlace(struct ListPerson* lp, char* place);
+void updatePlace(struct ListPerson* lp, char* place);
 void deleteCellPlace(struct CellPlace* p);
 void deleteListPerson(struct ListPlace* p);
 
@@ -69,4 +69,4 @@ int getBirthForPlace (struct FamilyTree* f, char* place);
 char* getBestPlaceInBirth (struct FamilyTree* f);
 int numberBirthForDate (struct FamilyTree* f, int day, int month);
 
-void deleteFamilly (struct FamilyTree* f);
+void deleteFamily (struct FamilyTree* f);
